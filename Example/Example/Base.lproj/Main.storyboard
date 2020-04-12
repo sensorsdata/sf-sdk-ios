@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xnj-te-OqI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shopping-->
+        <scene sceneID="5IQ-Jc-ppG">
+            <objects>
+                <navigationController id="xnj-te-OqI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Shopping" id="f3M-X6-K7z"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RhC-dO-WRe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vQB-Yp-ytR" kind="relationship" relationship="rootViewController" id="JMZ-E7-sMp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bTI-9E-NFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-542" y="821"/>
+        </scene>
+        <!--购物车-->
+        <scene sceneID="mre-US-Ihy">
+            <objects>
+                <viewController title="购物车" id="vQB-Yp-ytR" customClass="ShoppingCarViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TGp-x3-SPm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZX-rP-YE3">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Yqi-5M-Kyb"/>
+                                    <constraint firstAttribute="width" constant="100" id="xkI-R8-71q"/>
+                                </constraints>
+                                <state key="normal" title="加入购物车"/>
+                                <connections>
+                                    <action selector="addToShoppingCarAction:" destination="vQB-Yp-ytR" eventType="touchUpInside" id="vas-pg-fli"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TZX-rP-YE3" firstAttribute="centerX" secondItem="TGp-x3-SPm" secondAttribute="centerX" id="KWX-au-INM"/>
+                            <constraint firstItem="TZX-rP-YE3" firstAttribute="centerY" secondItem="TGp-x3-SPm" secondAttribute="centerY" id="pmg-Yb-XV9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SPp-uv-nlI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="14X-4h-lEn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y9e-kn-QSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="821"/>
+        </scene>
+    </scenes>
+</document>
