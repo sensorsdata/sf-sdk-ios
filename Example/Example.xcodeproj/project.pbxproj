@@ -111,7 +111,7 @@
 				888ED8412420A549000CB641 /* Frameworks */,
 				888ED8422420A549000CB641 /* Resources */,
 				057F7EDAD098CA9D0CB92CD3 /* [CP] Embed Pods Frameworks */,
-				4C9FE0167EAB655ED4E5A1AB /* [CP] Copy Pods Resources */,
+				8F1E6230EDEDF6006E6BA0AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C9FE0167EAB655ED4E5A1AB /* [CP] Copy Pods Resources */ = {
+		8F1E6230EDEDF6006E6BA0AE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

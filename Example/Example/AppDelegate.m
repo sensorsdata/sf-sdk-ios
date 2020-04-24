@@ -36,18 +36,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    SAConfigOptions *options = [[SAConfigOptions alloc] initWithServerURL:@"http://10.42.40.99:8106/sa?project=iOS" launchOptions:launchOptions];
+    SAConfigOptions *options = [[SAConfigOptions alloc] initWithServerURL:@"http://sf17n-datasink.debugbox.sensorsdata.cn/sa?project=default" launchOptions:launchOptions];
     options.autoTrackEventType = SensorsAnalyticsEventTypeAppStart | SensorsAnalyticsEventTypeAppEnd | SensorsAnalyticsEventTypeAppClick | SensorsAnalyticsEventTypeAppViewScreen;
     [SensorsAnalyticsSDK startWithConfigOptions:options];
 //    [[SensorsAnalyticsSDK sharedInstance] track:@"TestEvent"];
 
     [[SensorsAnalyticsSDK sharedInstance] enableLog:YES];
 
-    SFConfigOptions *sfOptions = [[SFConfigOptions alloc] initWithApiBaseURL:@"http://10.42.189.228:8141"];
+    SFConfigOptions *sfOptions = [[SFConfigOptions alloc] initWithApiBaseURL:@"http://sf17n-sfo.debugbox.sensorsdata.cn/api/v2/"];
     sfOptions.popupDelegate = self;
     [SensorsFocus startWithConfigOptions:sfOptions];
 
     [[SensorsAnalyticsSDK sharedInstance] track:@"test"];
+
     return YES;
 }
 
