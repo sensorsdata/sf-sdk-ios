@@ -1,8 +1,8 @@
 //
-//  SensorsFocus.h
+//  SFWebImage.h
 //  SensorsFocus
 //
-//  Created by 陈玉国 on 2020/3/17.
+//  Created by 张敏超🍎 on 2020/3/26.
 //  Copyright © 2020 Sensors Data Co., Ltd. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,35 +23,18 @@
 #endif
 
 #import <UIKit/UIKit.h>
-#import "SensorsFocusActionModel.h"
-#import "SFConfigOptions.h"
-#import "SFInteractionProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SensorsFocus : NSObject
+@interface UIImageView (SFWebImage)
 
-/**
- SDK 初始化方法，
- 在调用 sharedManager 方法获取单例对象之前，需要调用这个方法进行初始化
+- (void)sensorsdata_setImageURLString:(NSString *)urlString;
 
- @param options 初始化配置对象
- */
-+ (void)startWithConfigOptions:(SFConfigOptions *)options NS_SWIFT_NAME(start(configOptions:));
+@end
 
-/**
- Handle the test popup window url.
- Your scheme url must like: scheme://popupwindow?sf_popup_test=true&popup_window_id=xxx
+@interface UIButton (SFWebImage)
 
- @param url the scheme url
- @return If the sdk can handle the url, return YES.
- */
-+ (BOOL)handleOpenURL:(NSURL *)url NS_SWIFT_NAME(handleOpenURL(url:));
-
-
-
-/// SDK Version
-+ (NSString *)SDKVersion;
+- (void)sensorsdata_setBackgroundImageURLString:(NSString *)urlString forState:(UIControlState)state;
 
 @end
 
