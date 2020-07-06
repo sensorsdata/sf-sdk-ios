@@ -6,10 +6,10 @@ project './Example/Example.xcodeproj'
 
 target 'Example' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+#  use_frameworks!
 
   # Pods for Example
-#  pod 'SensorsFocus'
+#  pod 'SensorsFocus', '0.1.3'
   pod 'SensorsFocus', :path => './'
 #  pod 'SensorsFocus', :path => './', :subspecs => ['Core']
 #  pod 'SensorsFocus', :path => './', :subspecs => ['Popup']

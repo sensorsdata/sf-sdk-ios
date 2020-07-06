@@ -1,5 +1,5 @@
 framework module SensorsFocus {
-  umbrella header "SensorsFocus-umbrella.h"
+  umbrella header "SensorsFocus.h"
 
   export *
   module * { export * }

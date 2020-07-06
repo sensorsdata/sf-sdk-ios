@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		666F64D05D940235E5A6B688 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCA449F145FF11D86FA1FB2 /* libPods-Example.a */; };
 		888ED8492420A549000CB641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888ED8482420A549000CB641 /* AppDelegate.m */; };
 		888ED84F2420A549000CB641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888ED84D2420A549000CB641 /* Main.storyboard */; };
 		888ED8512420A54B000CB641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888ED8502420A54B000CB641 /* Assets.xcassets */; };
 		888ED8542420A54B000CB641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888ED8522420A54B000CB641 /* LaunchScreen.storyboard */; };
 		888ED8572420A54B000CB641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888ED8562420A54B000CB641 /* main.m */; };
 		888ED87B242600FE000CB641 /* ShoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888ED87A242600FE000CB641 /* ShoppingCarViewController.m */; };
-		AD9D5D6F8ABE58C02178254F /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970D0B2BA9959C05BA5A3A9E /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		888ED8652420A5B4000CB641 /* SensorsFocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SensorsFocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		888ED879242600FE000CB641 /* ShoppingCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCarViewController.h; sourceTree = "<group>"; };
 		888ED87A242600FE000CB641 /* ShoppingCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarViewController.m; sourceTree = "<group>"; };
-		970D0B2BA9959C05BA5A3A9E /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCA449F145FF11D86FA1FB2 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9D5D6F8ABE58C02178254F /* Pods_Example.framework in Frameworks */,
+				666F64D05D940235E5A6B688 /* libPods-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			children = (
 				888ED8632420A5B4000CB641 /* SensorsAnalyticsSDK.framework */,
 				888ED8652420A5B4000CB641 /* SensorsFocus.framework */,
-				970D0B2BA9959C05BA5A3A9E /* Pods_Example.framework */,
+				EBCA449F145FF11D86FA1FB2 /* libPods-Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,7 +110,6 @@
 				888ED8402420A549000CB641 /* Sources */,
 				888ED8412420A549000CB641 /* Frameworks */,
 				888ED8422420A549000CB641 /* Resources */,
-				057F7EDAD098CA9D0CB92CD3 /* [CP] Embed Pods Frameworks */,
 				8F1E6230EDEDF6006E6BA0AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -168,23 +167,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		057F7EDAD098CA9D0CB92CD3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8F1E6230EDEDF6006E6BA0AE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
