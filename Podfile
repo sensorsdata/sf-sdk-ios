@@ -9,8 +9,8 @@ target 'Example' do
 #  use_frameworks!
 
   # Pods for Example
-#  pod 'SensorsFocus', '0.1.3'
-  pod 'SensorsFocus', :path => './'
+  pod 'SensorsFocus', '0.1.4'
+#  pod 'SensorsFocus', :path => './'
 #  pod 'SensorsFocus', :path => './', :subspecs => ['Core']
 #  pod 'SensorsFocus', :path => './', :subspecs => ['Popup']
 end
