@@ -27,14 +27,14 @@
 
  @param planID 计划 ID
  */
-- (void)popupLoadSuccessWithPlanID:(NSString *)planID NS_SWIFT_NAME(popupLoadSuccess(planID:));
+- (void)popupLoadSuccessWithPlanID:(nullable NSString *)planID NS_SWIFT_NAME(popupLoadSuccess(planID:));
 /**
  弹窗加载失败回调
 
  @param planID 计划 ID
  @param error 失败错误信息
  */
-- (void)popupLoadFailedWithPlanID:(NSString *)planID error:(NSError *)error NS_SWIFT_NAME(popupLoadFailed(planID:error:));
+- (void)popupLoadFailedWithPlanID:(nullable NSString *)planID error:(nonnull NSError *)error NS_SWIFT_NAME(popupLoadFailed(planID:error:));
 
 /**
  点击弹窗中的控件回调
@@ -42,13 +42,13 @@
  @param planID 计划 ID
  @param action 点击动作描述对象
  */
-- (void)popupDidClickWithPlanID:(NSString *)planID action:(SensorsFocusActionModel *)action NS_SWIFT_NAME(popupDidClick(planID:action:));
+- (void)popupDidClickWithPlanID:(nullable NSString *)planID action:(nonnull SensorsFocusActionModel *)action NS_SWIFT_NAME(popupDidClick(planID:action:));
 
 /**
  弹窗关闭回调
 
  @param planID 计划 ID
  */
-- (void)popupDidCloseWithPlanID:(NSString *)planID NS_SWIFT_NAME(popupClose(planID:));
+- (void)popupDidCloseWithPlanID:(nullable NSString *)planID NS_SWIFT_NAME(popupClose(planID:));
 
 @end
