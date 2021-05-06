@@ -19,6 +19,7 @@
 //
 
 @class SensorsFocusActionModel;
+@class SFCampaign;
 @protocol SensorsFocusPopupDelegate <NSObject>
 
 @optional
@@ -50,5 +51,18 @@
  @param planID 计划 ID
  */
 - (void)popupDidCloseWithPlanID:(nullable NSString *)planID NS_SWIFT_NAME(popupClose(planID:));
+
+@end
+
+@protocol SensorsFocusCampaignDelegate <NSObject>
+
+@required
+- (void)campaignDidStart:(nonnull SFCampaign *)campaign NS_SWIFT_NAME(campaignDidStart(campaign:));
+
+@optional
+
+- (BOOL)campaignShouldStart:(nonnull SFCampaign *)campaign NS_SWIFT_NAME(campaignShouldStart(campaign:));
+- (void)campaignDidEnd:(nonnull SFCampaign *)campaign NS_SWIFT_NAME(campaignDidEnd(campaign:));
+- (void)campaignFailed:(nonnull SFCampaign *)campaign error:(nonnull NSError*)error NS_SWIFT_NAME(campaignFailed(campaign:error:));
 
 @end
