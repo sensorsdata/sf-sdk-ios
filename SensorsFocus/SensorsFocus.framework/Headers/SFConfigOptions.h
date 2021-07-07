@@ -43,6 +43,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<SensorsFocusPopupDelegate> popupDelegate;
 @property (nonatomic, weak) id<SensorsFocusCampaignDelegate> campaignDelegate;
 
+//default to YES, if set to NO, will not pre-download image
+@property (nonatomic, assign) BOOL preloadImage;
+
 @end
 
 NS_ASSUME_NONNULL_END
