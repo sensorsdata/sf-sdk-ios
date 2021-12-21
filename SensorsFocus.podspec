@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SensorsFocus'
-  s.version      = '0.4.5'
+  s.version      = '0.4.6'
   s.summary      = 'The official iOS SDK of Sensors Focus.'
   s.homepage     = 'http://www.sensorsdata.cn'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   base_dir = 'SensorsFocus/'
   s.resource = base_dir + 'SensorsFocus.bundle'
-  s.vendored_frameworks = base_dir + 'SensorsFocus.framework'
+  s.vendored_frameworks = base_dir + 'SensorsFocus.xcframework'
 
 end
