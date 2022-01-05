@@ -16,6 +16,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SensorsFocus",
-            path: "Sources/SensorsFocus/SensorsFocus.xcframework"),
+            path: "SensorsFocus/SensorsFocus.xcframework"),
     ]
 )
