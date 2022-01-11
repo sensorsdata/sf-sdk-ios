@@ -15,7 +15,18 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "SensorsFocus",
+            name: "SensorsFocusObjC",
             path: "SensorsFocus/SensorsFocus.xcframework"),
+        /// binary target cannot have resources, therefore a wrapper target is needed
+        .target(
+            name: "SensorsFocus",
+            dependencies: [
+                .target(name: "SensorsFocusObjC", condition: .when(platforms: [.iOS])),
+            ],
+            path: "SensorsFocus",
+            resources: [
+                .copy("SensorsFocus.bundle")
+            ]
+        )
     ]
 )
