@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SensorsFocus'
-  s.version      = '0.4.6'
+  s.version      = '0.5.0'
   s.summary      = 'The official iOS SDK of Sensors Focus.'
   s.homepage     = 'http://www.sensorsdata.cn'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.cocoapods_version = '>= 1.5.0'
   s.ios.framework = 'UIKit', 'Foundation'
-  s.dependency 'SensorsAnalyticsSDK', '>=2.1.6'
+  s.dependency 'SensorsAnalyticsSDK', '>=4.2.0'
   s.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER': 'com.sensorsdata.SensorsFocus', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.static_framework = true
