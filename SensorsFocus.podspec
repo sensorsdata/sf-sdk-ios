@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SensorsFocus'
-  s.version      = '0.6.0'
+  s.version      = '0.6.1'
   s.summary      = 'The official iOS SDK of Sensors Focus.'
   s.homepage     = 'http://www.sensorsdata.cn'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -14,8 +14,15 @@ Pod::Spec.new do |s|
   s.dependency 'SensorsAnalyticsSDK', '>=4.2.0'
   s.dependency 'SensorsDiagnosis'
   s.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER': 'com.sensorsdata.SensorsFocus'}
+  s.default_subspec = 'Dynamic'
 
   base_dir = 'SensorsFocus/'
-  s.vendored_frameworks = base_dir + 'SensorsFocus.xcframework'
+  s.subspec 'Dynamic' do |d|
+    s.vendored_frameworks = base_dir + 'Dynamic/SensorsFocus.xcframework'
+  end
+  
+  s.subspec 'Static' do |s|
+    s.vendored_frameworks = base_dir + 'Static/SensorsFocus.xcframework'
+  end
 
 end
