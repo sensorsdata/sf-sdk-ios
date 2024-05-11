@@ -7,6 +7,7 @@
 //
 #import <UIKit/UIKit.h>
 #import "SFConfigOptions.h"
+#import "SFCampaignResponse.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -31,6 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// SDK Version
 + (NSString *)SDKVersion;
+
++ (void)fetchCampaignsWithCompletion:(nullable void(^)(SFCampaignResponse *response))completion;
 
 @end
 

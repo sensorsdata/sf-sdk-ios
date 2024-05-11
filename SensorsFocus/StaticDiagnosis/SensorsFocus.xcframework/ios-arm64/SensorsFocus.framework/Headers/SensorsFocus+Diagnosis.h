@@ -12,7 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SensorsFocus (Diagnosis)
 
 /// disable diagnostic info collection
-@property(class, nonatomic, assign) BOOL disableDiagnosticsCollection;
+@property (class, nonatomic, assign) BOOL disableDiagnosticsCollection;
+
+@end
+
+@interface SFConfigOptions (Diagnosis)
+
+@property (nonatomic, assign) NSTimeInterval diagnosisExpiration;
 
 @end
 

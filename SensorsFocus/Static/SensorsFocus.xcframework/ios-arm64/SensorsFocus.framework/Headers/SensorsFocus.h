@@ -18,10 +18,6 @@
 //  limitations under the License.
 //
 
-#if ! __has_feature(objc_arc)
-#error This file must be compiled with ARC. Either turn on ARC for the project or use -fobjc-arc flag on this file.
-#endif
-
 
 #import "SensorsFocusActionModel.h"
 #import "SFInteractionProtocol.h"
@@ -30,6 +26,10 @@
 
 #if __has_include("SensorsFocus+Diagnosis.h")
 #import "SensorsFocus+Diagnosis.h"
+#endif
+
+#if __has_include("SFConfigOptions+ID3.h")
+#import "SFConfigOptions+ID3.h"
 #endif
 
 

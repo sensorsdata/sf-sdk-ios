@@ -14,6 +14,7 @@
 #import "SensorsFocus.h"
 #import "SensorsFocusActionModel.h"
 #import "SFCampaign.h"
+#import "SFCampaignResponse.h"
 #import "SFConfigOptions.h"
 #import "SFInteractionProtocol.h"
 #import "SensorsFocus+Diagnosis.h"
