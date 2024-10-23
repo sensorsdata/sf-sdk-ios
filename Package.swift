@@ -20,13 +20,12 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "SensorsFocusDynamicIDMDiagnosis", path: "Dynamic+IDM+Diagnosis/SensorsFocus.xcframework"),
-        .binaryTarget(name: "SensorsFocusDynamicIDM", path: "Dynamic+IDM/SensorsFocus.xcframework"),
-        .binaryTarget(name: "SensorsFocusDynamic", path: "Dynamic/SensorsFocus.xcframework"),
-        .binaryTarget(name: "SensorsFocusDynamicDiagnosis", path: "DynamicDiagnosis/SensorsFocus.xcframework"),
-        .binaryTarget(name: "SensorsFocusStaticIDMDiagnosis", path: "Static+IDM+Diagnosis/SensorsFocus.xcframework"),
-        .binaryTarget(name: "SensorsFocusStaticIDM", path: "Static+IDM/SensorsFocus.xcframework"),
-        .binaryTarget(name: "SensorsFocusStatic", path: "Static/SensorsFocus.xcframework"),
-        .binaryTarget(name: "SensorsFocusStaticDiagnosis", path: "StaticDiagnosis/SensorsFocus.xcframework"),
-    ]
-)
+        .binaryTarget(name: "SensorsFocusDynamicIDMDiagnosis", path: "SensorsFocus/Dynamic+IDM+Diagnosis/SensorsFocus.xcframework"),
+        .binaryTarget(name: "SensorsFocusDynamicIDM", path: "SensorsFocus/Dynamic+IDM/SensorsFocus.xcframework"),
+        .binaryTarget(name: "SensorsFocusDynamic", path: "SensorsFocus/Dynamic/SensorsFocus.xcframework"),
+        .binaryTarget(name: "SensorsFocusDynamicDiagnosis", path: "SensorsFocus/DynamicDiagnosis/SensorsFocus.xcframework"),
+        .binaryTarget(name: "SensorsFocusStaticIDMDiagnosis", path: "SensorsFocus/Static+IDM+Diagnosis/SensorsFocus.xcframework"),
+        .binaryTarget(name: "SensorsFocusStaticIDM", path: "SensorsFocus/Static+IDM/SensorsFocus.xcframework"),
+        .binaryTarget(name: "SensorsFocusStatic", path: "SensorsFocus/Static/SensorsFocus.xcframework"),
+        .binaryTarget(name: "SensorsFocusStaticDiagnosis", path: "SensorsFocus/StaticDiagnosis/SensorsFocus.xcframework"),
+    ])
