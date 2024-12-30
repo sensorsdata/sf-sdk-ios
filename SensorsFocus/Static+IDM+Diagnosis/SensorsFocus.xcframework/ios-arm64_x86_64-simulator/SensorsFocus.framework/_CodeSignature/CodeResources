@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/SFConfigOptions+ID3.h</key>
 		<data>
-		3U+L8w9k6m+JpV1bUPgNejrRGkQ=
+		ffc1wG9ZiI4Pm9V2PD6bwKrSswM=
 		</data>
 		<key>Headers/SFConfigOptions.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CalJxpc4dd8dt2KslxxekdH5zh4=
+		wUjMo2/61QSaZPXyXsdtKCgvPx8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>SensorsFocus.bundle/Info.plist</key>
 		<data>
-		QhBR39kIvdOlaWLnUdTfLnVICYA=
+		IT5lnMfuEnt3PovBTPx5eyohHIo=
 		</data>
 		<key>SensorsFocus.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -97,11 +97,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3U+L8w9k6m+JpV1bUPgNejrRGkQ=
+			ffc1wG9ZiI4Pm9V2PD6bwKrSswM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8NAVZTh4tniUV61m5CARVvbU/NzcCcrrM94mRkd7LO8=
+			V9GZAmPP2YdU4B2zy59P5zHyVOlzibtYATnfMythHWc=
 			</data>
 		</dict>
 		<key>Headers/SFConfigOptions.h</key>
@@ -196,11 +196,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QhBR39kIvdOlaWLnUdTfLnVICYA=
+			IT5lnMfuEnt3PovBTPx5eyohHIo=
 			</data>
 			<key>hash2</key>
 			<data>
-			wDuioLqzYYXVzARQ+OwjqCk4f6lvtgg7P290dUHLtVA=
+			44L2waFiOatZELSQV3kiWL8vnnhLozCkI6iFoqQkv80=
 			</data>
 		</dict>
 		<key>SensorsFocus.bundle/PrivacyInfo.xcprivacy</key>

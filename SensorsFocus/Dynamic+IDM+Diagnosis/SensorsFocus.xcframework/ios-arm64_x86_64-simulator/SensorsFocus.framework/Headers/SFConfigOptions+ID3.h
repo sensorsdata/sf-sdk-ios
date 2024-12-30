@@ -16,8 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// access token for gateway
 @property (nonatomic, copy) NSString *accessToken;
 
-/// organization ID for gateway
+/// organization ID for gateway, if enableHttpEncrypt, ordID should not be empty
 @property (nonatomic, copy) NSString *orgID;
+
+/// enable http encrypt
+@property (nonatomic, assign) BOOL enableHttpEncrypt;
 
 @end
 
