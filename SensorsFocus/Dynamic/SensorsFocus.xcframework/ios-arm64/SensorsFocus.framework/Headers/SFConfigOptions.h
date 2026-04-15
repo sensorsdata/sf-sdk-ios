@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "SFInteractionProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -46,6 +46,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, nullable) NSData *placeholderImage;
 
 @property (nonatomic, copy, nullable) NSString *placeholderImageName;
+
+//default value is CGFLOAT_MAX,
+//please be caution to set this option, especially in muti-windows scenarios，and may cause popup UI not on Top of your UI Hierarchy
+@property (nonatomic, assign) UIWindowLevel windowLevel;
 
 @end
 

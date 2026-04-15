@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SensorsFocus",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v9)
     ],
     products: [
         .library(
@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SensorsFocus",
-            path: "SensorsFocus/SensorsFocus.xcframework"
+            path: "SensorsFocus/Dynamic+IDM/SensorsFocus.xcframework"
         )
     ]
 )

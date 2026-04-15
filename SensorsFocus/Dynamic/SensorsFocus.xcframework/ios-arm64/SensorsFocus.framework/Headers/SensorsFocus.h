@@ -24,10 +24,6 @@
 #import "SFCampaign.h"
 #import "SensorsFocus+Public.h"
 
-#if __has_include("SensorsFocus+Diagnosis.h")
-#import "SensorsFocus+Diagnosis.h"
-#endif
-
 #if __has_include("SFConfigOptions+ID3.h")
 #import "SFConfigOptions+ID3.h"
 #endif

@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/SFConfigOptions.h</key>
 		<data>
-		rsVpROmESJLsEGZQumC9l8CpOUs=
+		UwP+sPqfVPIP7rrVtNKCoEKw4kk=
 		</data>
 		<key>Headers/SFInteractionProtocol.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/SensorsFocus.h</key>
 		<data>
-		DFJ9EujH09NbbAKea84vs7rh1JU=
+		OTMFqp2AdcTOzw6Q1UeDWXj5Orw=
 		</data>
 		<key>Headers/SensorsFocusActionModel.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		caR0beGrlQs4ghZRrbEbhhQiD0o=
+		vW2jpx/RaVujUpGb/ngmRo5bD6w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>SensorsFocus.bundle/Info.plist</key>
 		<data>
-		WFGt8OurYUuPROJ8zgnPOmNNtc8=
+		lQPF4VXisUvDj0e7V3IK6x6/dBo=
 		</data>
 		<key>SensorsFocus.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -89,11 +89,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rsVpROmESJLsEGZQumC9l8CpOUs=
+			UwP+sPqfVPIP7rrVtNKCoEKw4kk=
 			</data>
 			<key>hash2</key>
 			<data>
-			tVOMZLRulVoeQvkn6k/rodtqA9cSUB39mLsLyj4aXBk=
+			yT5/L02YiZj9ZbwxC13dSUgPtE55G7H0nxdNrOVW1sc=
 			</data>
 		</dict>
 		<key>Headers/SFInteractionProtocol.h</key>
@@ -133,11 +133,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DFJ9EujH09NbbAKea84vs7rh1JU=
+			OTMFqp2AdcTOzw6Q1UeDWXj5Orw=
 			</data>
 			<key>hash2</key>
 			<data>
-			v35nefenYXfPQ/rY+rBNWhF2jQEAZTMTJ8ZOYBikmSU=
+			LaXoaN7KEeyqoLdK2GUd2MF46zKCOiZuPDJq3OK7za0=
 			</data>
 		</dict>
 		<key>Headers/SensorsFocusActionModel.h</key>
@@ -166,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WFGt8OurYUuPROJ8zgnPOmNNtc8=
+			lQPF4VXisUvDj0e7V3IK6x6/dBo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TYXTlU6gsG2JBCt9unrAKD72bprOZowvFsX/mnL68QI=
+			C6hhlOi44kIDI9IRG/M4ayk3Fi2U8QGlATPjUykBAwY=
 			</data>
 		</dict>
 		<key>SensorsFocus.bundle/PrivacyInfo.xcprivacy</key>
